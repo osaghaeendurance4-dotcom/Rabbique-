@@ -1,0 +1,50 @@
+<header>
+  <img 
+    src="https://i.imgur.com/LOGO.png" 
+    alt="Rabbique Logo" 
+    class="logo"
+  >
+  <h1>Rabbique</h1>
+  <p>Quality Products You Can Trust</p>
+</header>
+
+<nav>
+  <a href="#shop">Shop</a>
+  <a href="#wishlist">Wishlist ❤️</a>
+  <a href="#about">About</a>
+  <a href="https://wa.me/234XXXXXXXXXX" target="_blank">WhatsApp</a>
+</nav>
+
+<section id="admin">
+  <h2>Add Product</h2>
+  <input id="name" placeholder="Product name">
+  <input id="price" type="number" placeholder="Price (₦)">
+  <input id="image" type="file" accept="image/*">
+  <button onclick="addProduct()">Upload Product</button>
+  <p class="note">Maximum 10 products</p>
+</section>
+
+<section id="shop">
+  <h2>Products</h2>
+  <div id="products"></div>
+</section>
+
+<section id="wishlist">
+  <h2>Wishlist ❤️</h2>
+  <div id="wishlistItems"></div>
+</section>
+
+<section id="about">
+  <h2>About Rabbique</h2>
+  <p>
+    Rabbique is a modern business focused on delivering quality products
+    with easy ordering, fast response, and secure payment.
+    Customers can order directly via WhatsApp or pay online.
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Rabbique</p>
+</footer>
+
+<script src="https://js.paystack.co/v1/inline.js"></script>
